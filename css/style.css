@@ -129,3 +129,81 @@ body {
 
 
 /* headerMenu End */
+
+
+/* about */
+
+.about {
+    margin-top: 60px;
+}
+
+.about .abouttext {}
+
+.about .abouttext p {
+    font-size: 16px;
+    color: #4c4c4c;
+}
+
+.about .bottomimage {
+    margin-bottom: 175px;
+}
+
+.about .bottomimage img {
+    width: 150px;
+}
+
+
+/* about End */
+
+
+/* bottomBar */
+
+.bottomBar {
+    background: #ffd0be;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottomBar .socialIcon {
+    display: inline-flex;
+}
+
+.bottomBar .socialIcon .singleIcon {
+    margin-left: 10px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 28px;
+}
+
+.bottomBar .socialIcon .singleIcon i {
+    background: black;
+    height: 30px;
+    width: 30px;
+    padding: 7px;
+    border-radius: 32px;
+    font-size: 19px;
+}
+
+.bottomBar .bottomNav {}
+
+.bottomBar .bottomNav ul {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 12px;
+}
+
+.bottomBar .bottomNav ul li {
+    list-style: none;
+    margin: auto;
+}
+
+.bottomBar .bottomNav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* bottomBar End */
