@@ -241,6 +241,91 @@ body {
 
 
 
+/* Farm Page  */
+
+.farm {
+    width: 100%;
+    margin: auto;
+}
+
+.farm .farm_container {
+    width: 50%;
+    margin: auto;
+    color: #565656;
+}
+
+.farm .farm_title {}
+
+.farm .farm_title h5 {
+    padding: 70px 0px;
+    font-size: 20px;
+}
+
+.farm .farm_content {}
+
+.farm .farm_content h2 {
+    padding: 30px 0px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.farm .farm_content h2:before {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    height: 2px;
+    width: 50px;
+    background: black;
+}
+
+.farm .farm_content p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.farm .farm_bottom_text {
+    margin-top: 75px;
+}
+
+.farm .farm_bottom_text h2 {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.farm .farm_bottom_text h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    background: black;
+}
+
+.farm .farm_bottom_text p {}
+
+.farm .farm_bottom_text p a {
+    text-decoration: underline;
+    color: #565656;
+}
+
+.farm_bottom_img {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.farm_bottom_img img {
+    width: 100%;
+    height: 600px;
+}
+
+
+/* Farm Page End */
+
+
+
+
 
 /* bottomBar */
 
