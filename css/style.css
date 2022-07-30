@@ -325,6 +325,55 @@ body {
 
 
 
+/* Faq Page */
+
+.faq {
+    width: 100%;
+    /* background: rebeccapurple; */
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.faq .faq_container {
+    width: 50%;
+    margin: auto;
+    /* background: red; */
+    color: #565656;
+}
+
+.faq .faq_container .faq_title {}
+
+.faq .faq_container .faq_title h2 {
+    font-weight: bold;
+    color: black;
+    position: relative;
+}
+
+.faq .faq_container .faq_title h2:before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: black;
+    bottom: -15px;
+}
+
+.faq .faq_container .faqs {}
+
+.faq .faq_container .faqs .single_faq {
+    margin-top: 50px;
+}
+
+.faq .faq_container .faqs .single_faq h2 {
+    width: 80%;
+}
+
+.faq .faq_container .faqs .single_faq h2 p {}
+
+
+/* Faq Page END */
+
+
 
 
 /* bottomBar */
