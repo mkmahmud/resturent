@@ -375,6 +375,60 @@ body {
 
 
 
+/* Reservation */
+
+.reservation {
+    margin-top: 60px;
+    color: #2e2e2e;
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.reservation .reservation_title {}
+
+.reservation_hr {
+    width: 100%;
+    background-color: #2e2e2e;
+    height: 2px;
+    margin-top: 100px;
+}
+
+.reservation .reservation_title h1 {
+    margin: 30px 0px;
+    font-size: 40px;
+}
+
+.reservation .reservation_text {
+    margin-top: 50px;
+}
+
+.reservation .reservation_text h2 {
+    font-size: 35px;
+}
+
+.reservation .reservation_text p {
+    margin-top: 20px;
+}
+
+.reservation .reservation_text button {
+    padding: 15px 40px;
+    outline: none;
+    background: none;
+    margin-top: 100px;
+    border: 3px solid #838383;
+}
+
+.reservation .reservation_text button a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+/* Reservation End */
+
 
 /* bottomBar */
 
